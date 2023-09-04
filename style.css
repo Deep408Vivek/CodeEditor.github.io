@@ -1,0 +1,258 @@
+body{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(25, 23, 23);
+}
+.compiler{
+    height: 600px;
+    width: 1250px;
+}
+#header{
+    /* width: 100%; */
+    /* background-color: #EEEEEE; */
+    padding: 5px;
+    height: 30px;
+    background-color: rgb(25, 23, 23);
+    margin-top: -541px;
+    margin-left: 55px;
+    width: 100px;
+}
+.header-left{
+    display: flex;
+    margin-left: -18px;
+    margin-top: -5px;
+}
+.header-left a{
+    list-style: none;
+    margin-left: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+    text-decoration: none;
+}
+.logo{
+    /* height: 25px;
+    width: 25px; */
+    font-weight: bold;
+    font-size: 120%;
+    color: blue;
+    margin-top: 13px;
+    margin-left: 30px;
+}
+.header-right{
+    margin-left: 1000px;
+    margin-top: -20px;
+}
+.header-right a.img:hover{
+    background-color: red;
+}
+.icon1{
+    height: 20px;
+    width: 20px;
+    margin-left:-45px;
+}
+.icon2{
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+}
+.icon3{
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+    margin-bottom: -0.5px;
+}
+.icon4{
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+}
+.icon5{
+    height: 20px;
+    width: 40px;
+    margin-left: 25px;
+    margin-bottom: -1px;
+}
+.icon6{
+    height: 20px;
+    width: 20px;
+    margin-left: 25px;
+    margin-bottom: -1px;
+}
+.icon7{
+    height: 20px;
+    width: 20px;
+    margin-left: 25px;
+    margin-bottom: -1px;
+    color: white;
+}
+img:hover{
+    transform:scale(1.2);
+    cursor: pointer;
+}
+
+.horiLine{
+    width: 1282px; 
+    margin-left: -20px; 
+    border: 1px solid grey;
+}
+.vertList{
+    height: 570px;
+    width: 30px;
+    border-right: 2px solid grey;
+    margin-top: -8px;
+    margin-left: 20px;
+}
+.vertIcon1{
+    height: 25px;
+    width: 30px;
+    margin-left: -10px;
+    margin-top: 40px;
+}
+.vertIcon2{
+    height: 25px;
+    width: 30px;
+    margin-left: -10px;
+    margin-top: 15px;
+}
+.vertIcon3{
+    height: 30px;
+    width: 25px;
+    margin-left: -7px;
+    margin-top: 15px;
+}
+.vertIcon4{
+    height: 30px;
+    width: 40px;
+    margin-left: -16px;
+    margin-top: 15px;
+}
+.vertIcon5{
+    height: 30px;
+    width: 35px;
+    margin-left: -16px;
+    margin-top: 15px;
+}
+.vertIcon6{
+    height: 30px;
+    width: 35px;
+    margin-left: -16px;
+    margin-top: 15px;
+}
+.vertIcon7{
+    height: 40px;
+    width: 45px;
+    margin-left: -20px;
+    margin-top: 10px;
+}
+.vertIcon8{
+    height: 40px;
+    width: 45px;
+    margin-left: -23px;
+    margin-top: 150px;
+}
+.editor{
+    height: 545px;
+    width: 1213.7px;
+    border: 1px solid grey;
+    margin-top: -542px;
+    margin-left: 40.5px;
+}
+
+#logo{
+    float: left;
+    font-weight: bold;
+    font-size: 150%;
+    padding: 3px 5px;
+    color: blue;
+}
+
+#buttonContainer{
+    width: 253px;
+    /* margin-left: 337px; */
+    color: orangered;
+    margin-left: -7px;
+    margin-top: -30px;
+}
+.lang{
+    display: flex;
+    color: brown;
+    margin-top: -10px;
+    margin-left: 400px;
+}
+.toggleButton{
+    float: left;
+    border: 1px solid grey;
+    padding: 6px;
+    border-right: none;
+}
+
+#html{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.active{
+    background-color: beige;
+}
+
+.highlightedButton{
+    background-color: aquamarine;
+}
+.bodyContainer{
+    background-color: rgb(25, 23, 23);
+    margin-left: 52px;
+    margin-top: -28px;
+}
+#output{
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-right: 1px solid grey;
+}
+
+textarea{
+    width: 80px;
+    resize: none;
+    border-color: grey;
+    /* margin-left: 10px; */
+}
+
+.panel{
+    float: left;
+    width: 100%;
+}
+
+iframe{
+    background-color: black;
+    border: none;
+    border-color: grey;
+    width: 1210px;
+    height: 500px;
+    border: 2px solid grey;
+    margin-left: 40px;
+}
+
+.hidden{
+    display: none;
+}
+.htmlPanel{
+    color: white;
+    background-color: #1d1e22;
+}
+.cssPanel{
+    color: white;
+    background-color: #1d1e22;
+}
+.scriptPanel{
+    color: white;
+    background-color: #1d1e22;
+}
+.outputPanel{
+    margin-left: 50px;
+    margin-top: -30px;
+}
+.outHR{
+    margin-left: 580px;
+    color: green;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link href="jquery-ui/jquery-ui.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Compiler</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="compiler">
+        <div class="header-left">
+            <strong class="logo">CodePlayer</strong>
+            <a href="">File</a>
+            <a href="">Edit</a>
+            <a href="">Selection</a>
+            <a href="">View</a>
+            <a href="">Go</a>
+            <a href="">Run</a>
+            <a href="">Terminal</a>
+            <a href="">Help</a>
+            <a href="" style="margin-top: 8px;">...</a>
+        </div>
+        <div class="header-right">
+            <a href=""><img class="icon1" src="icon2.png" alt=""></a>
+            <a href=""><img class="icon2" src="icon1.png" alt=""></a>
+            <a href=""><img class="icon3" src="icon3.png" alt=""></a>
+            <a href=""><img class="icon3" src="icon4.png" alt=""></a>
+            <a href=""><img class="icon5" src="icon5.png" alt=""></a>
+            <a href=""><img class="icon6" src="icon6.png" alt=""></a>
+            <a href=""><img class="icon7" src="icon7.png" alt=""></a>
+        </div>
+        <hr class="horiLine">
+        <div class="vertList">
+            <img src="icon8.png" class="vertIcon1" alt="">
+            <img src="icon9.png" alt="" class="vertIcon2">
+            <img src="icon10.png" alt="" class="vertIcon3">
+            <img src="icon11.png" alt="" class="vertIcon4">
+            <img src="icon12.png" alt="" class="vertIcon5">
+            <img src="icon13.png" alt="" class="vertIcon6">
+            <img src="icon14.png" alt="" class="vertIcon7">
+            <img src="icon15.png" alt="" class="vertIcon8">
+        </div>
+        <div class="header2" id="header">
+            <!-- <div class="lang" id="">
+                <p style="">HTML</p>
+                <p style="margin-left: 150px;">CSS</p>
+                <p style="margin-left: 150px;">JavaScript</p>
+            </div> -->
+            <div id="buttonContainer">
+                <div class="toggleButton active" id="html"> HTML </div>
+                <div class="toggleButton" id="css"> CSS </div>
+                <div class="toggleButton" id="javascript"> JavaScript </div>
+                <div class="toggleButton active" id="output"> Output </div>
+            </div>
+        </div>
+        <!-- <hr style="margin-left: 40px;"> -->
+            <div class="bodyContainer" id="bodyContainer">
+                <textarea id="htmlPanel" class="panel htmlPanel"> <p id="paragraph"> Hello World! </p></textarea>
+                <textarea id="cssPanel" class="panel hidden cssPanel">p{color: green} </textarea>
+                <textarea id="javascriptPanel" class="panel hidden scriptPanel">document.getElementById("paragraph").innerHTML = "Hello Vivek";</textarea>
+                <!-- <iframe id="outputPanel" class="panel"></iframe> -->
+           </div>
+    </div>
+        <!-- <h1 class="outHR"><p>Output</p></h1> -->
+        <iframe id="outputPanel" class="outputPanel"></iframe>
+    <script src="script.js"></script>
+</body>
+</html>
